@@ -22,8 +22,8 @@ def validar(request):
               if usuario.is_active:
                     meu_login(request, usuario)
                     return HttpResponseRedirect('/dashboard/')
-              else:
-                  return render(request, 'login.html',{'form' : form})
+                  else:
+                          return render(request, 'login.html',{'form' : form})
             else:
                 return render(request, 'login.html',{'form' : form})
         else:
@@ -42,6 +42,3 @@ def logoff(request):
 @login_required()
 def dashboard(request):
     return render(request, 'dashboard.html')
-  
-def michel
-# Create your views here.
