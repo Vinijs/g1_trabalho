@@ -42,6 +42,6 @@ def logoff(request):
 @login_required()
 def dashboard(request):
     return render(request, 'dashboard.html')
+
   
-def michel
 # Create your views here.
