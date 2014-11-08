@@ -7,7 +7,8 @@ from django.core.mail import send_mail
 from django.utils.translation import ugettext_lazy as _
 
 def index(request):
-    return render(request, 'index.html')
+    recado = ("Ola voce esta no site certo!")
+    return render(request, 'index.html',{'recado':recado,})
 
 def login(request):
     form = LoginForm()
