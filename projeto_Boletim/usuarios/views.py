@@ -44,7 +44,7 @@ def dashboard(request):
 
 def cadastro(request):
     form = cadastroForm()
-    return render(request, 'cadastro.html',{'form':form})
+    return render(request, 'cadastro.html',{'form': form})
 
 def cadastro_validar(request):
     if request.method == 'POST':
