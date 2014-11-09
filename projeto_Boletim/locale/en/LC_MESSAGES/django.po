@@ -8,7 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2014-11-08 16:36+0000\n"
+=======
+"POT-Creation-Date: 2014-11-08 19:58+0000\n"
+>>>>>>> 30c8b793063996d994adda28984185ae95bbf63a
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: usuarios/views.py:10
+<<<<<<< HEAD
 msgid "Ola, voce esta no site certo!"
 msgstr "This"
 
@@ -28,3 +33,15 @@ msgstr "is"
 #: usuarios/templates/index.html:41
 msgid " Esse e o bloco de conteudo!"
 msgstr "test"
+=======
+msgid "Ola voce esta no site certo!"
+msgstr "Hello you are at the right site!"
+
+#: usuarios/templates/index.html:39
+msgid "olá turma do mal! "
+msgstr "hello gang of evil!"
+
+#: usuarios/templates/index.html:41
+msgid " Esse e o bloco de conteudo!"
+msgstr "This content and block!"
+>>>>>>> 30c8b793063996d994adda28984185ae95bbf63a
