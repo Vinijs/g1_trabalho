@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponseRedirect
-from usuarios.forms import UsuarioForm, LoginForm
+from usuarios.forms import UsuarioForm, LoginForm, cadastroForm
 from django.contrib.auth import authenticate, logout, login as meu_login
 from django.contrib.auth.decorators import login_required
 from usuarios.models import Usuario
