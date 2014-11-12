@@ -1,9 +1,15 @@
 {% load i18n %}
-
+<html>
+<head>
+ <meta charset="utf-8">
+    <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Index</title>
+</head>
+    <body>
 <div align="center"><h1>Seja Bem vindo ao Boletim do Aluno</h1></div>
-
+<hr>
 <br />
-Conteudo normal do site...
+
 <br />
 
 {% if user.is_authenticated %}
@@ -15,9 +21,11 @@ Conteudo normal do site...
     <br />
 {% endif %}
 
-<a href="/login/">Clique para fazer o login</a>
+    
+    <a href="/login/">Clique aqui para fazer o login</a>
     <br />
-    <a href="/cadastro/">Clique para fazer o seu cadastro</a><br /> <br />
+    <br />
+    <a href="/cadastro/">Clique aqui para fazer o seu cadastro</a><br /> <br />
     
     <a href="#" onclick="document.setLangEnglish.submit();return false;">English</a>
     <form name="setLangEnglish" action="/i18n/setlang/" method="POST">
@@ -40,9 +48,11 @@ Conteudo normal do site...
     <br />
     Tradução direto no template (bloco): {% blocktrans %} Esse e o bloco de conteudo!{% endblocktrans %}
     <br />
-
+    <hr>
     <!-- RODAPE -->
     <footer>
       <div align="center">&copy; Projeto Boletim | 2014</div>
     </footer>
     <!-- FIM RODAPE -->
+    </body>
+</html>
