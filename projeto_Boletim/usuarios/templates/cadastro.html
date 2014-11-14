@@ -1,16 +1,12 @@
-<html>
-<head>
-    <meta charset="utf-8">
+    <div align="center"><h1>Faça seu Cadastro</h1></div>
     <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
-</head>
-    <body>
-        <div align="center"><h1>CADASTRO</h1></div>
-        <hr>
+    <title>Cadastro</title>
+    <hr>
 <form action="/cadastro_validar/" method="POST">
     {% csrf_token %}
     {{ form.as_p }}<br />
-    <input  class="btn btn-danger" type="button" value="Cadastrar"/>
+
+    <input  class="btn btn-info" type="submit" value="Cadastrar"/>
 </form>
      <hr>
      <!-- RODAPE -->
@@ -18,5 +14,3 @@
       <div align="center">&copy; Projeto Boletim | 2014</div>
     </footer>
     <!-- FIM RODAPE -->
-    </body>
-</html>

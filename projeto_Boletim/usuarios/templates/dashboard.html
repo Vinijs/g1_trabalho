@@ -2,23 +2,25 @@
 <html lang="pt_BR">
   <head>
     <meta charset="utf-8">
-      
+     <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css" rel="stylesheet">  
        <title>Projeto-Boletim</title>
       
   </head>   
     <body>  
         <div align="right"><a href="/logoff/">Sair</a></div>
         <div align="right">Email do usuario logado: {{ user.email }}</div>
-        <div align="center"><h1>DASHBOARD DO USUARIO</h1></div>
+        <div align="center"><h1>Boletim do Aluno</h1></div>
 
 <br />
 <hr> 
 Conteudo bloqueado do usuario...
-    
+        
 
+    <div align="center">
+        <button type="submit" class="btn btn-success">Salvar Registro</button>
+    </div>
 <hr>      
 <br /> 
-        
     <!-- RODAPE -->
     <footer>
       <div align="center">&copy; Projeto Boletim | 2014</div>

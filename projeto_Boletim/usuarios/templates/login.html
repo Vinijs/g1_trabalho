@@ -1,19 +1,13 @@
-<html>
-<head>
-    <meta charset="utf-8">
-    <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<title>Login</title>
-     
-</head>
-<body>
 <div align="center"><h1>Faça seu Login</h1></div>
+     <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css" rel="stylesheet">
+     <title>Login</title>
     <hr>
-<form action="/validar/" method ="POST"> 
- {% csrf_token %}
+<form action="/validar/" method="POST">
+    {% csrf_token %}
     {{ form }}
     <br />
-<input  class="btn btn-danger" type="button" value="Validar"/>
-   
+    <input  class="btn btn-info" type="submit" value="validar"/>
+    
 </form>
     <hr>
      <!-- RODAPE -->
@@ -21,6 +15,3 @@
       <div align="center">&copy; Projeto Boletim | 2014</div>
     </footer>
     <!-- FIM RODAPE -->
-</body>
-</html>
-
