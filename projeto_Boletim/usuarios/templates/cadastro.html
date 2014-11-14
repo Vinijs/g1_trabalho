@@ -2,12 +2,15 @@
     <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <title>Cadastro</title>
     <hr>
+<div class="col-sm-6" align="center">
 <form action="/cadastro_validar/" method="POST">
     {% csrf_token %}
     {{ form.as_p }}<br />
 
     <input  class="btn btn-info" type="submit" value="Cadastrar"/>
+    <input  class="btn btn-info" type="submit"   value="Fazer Login"/>
 </form>
+</div>
      <hr>
      <!-- RODAPE -->
     <footer>
