@@ -2,48 +2,31 @@
 <html lang="pt_BR">
   <head>
     <meta charset="utf-8">
-     <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css" rel="stylesheet">  
+     <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+    
        <title>Projeto-Boletim</title>
       
   </head>   
     <body>  
         <div align="right"><a href="/logoff/">Sair</a></div>
         <div align="right">Email do usuario logado: {{ user.email }}</div>
-        <div align="center"><h1>Boletim do Aluno</h1></div>
+        <div align="center"><h1><p class="text-info">Boletim do Aluno</p></h1></div>
 
 <br />
 <hr> 
-            <table class="table table-hover">
-                <caption>Titulo</caption>
-                    <thead>
-                    <tr>
-                        <th>Teste</th>
-                        <th>Teste</th>
-                        <th>Teste</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>Teste</td>
-                        <td>Teste</td>
-                        <th>Teste</th>
-                    </tr>
-                    </tbody>
-                     <thead>
-                    <tr>
-                        <th>Teste</th>
-                        <th>Teste</th>
-                        <th>Teste</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>Teste</td>
-                        <td>Teste</td>
-                        <th>Teste</th>
-                    </tr>
-                    </tbody>
-            </table>
+       <ul class="nav nav-tabs">
+    <li class="active">
+    <a href="#">Início</a>
+    </li>
+    <li><a href="#">Notas</a></li>
+    <li><a href="#">Provas</a></li>
+    <li><a href="#">Horarios</a></li>
+    <li><a href="#">Biblioteca</a></li>
+    <li><a href="#">Cursos online</a></li>
+    <li><a href="/avisos.html/">Avisos</a></li>
+    </ul>
+        
+ 
         
 
    
