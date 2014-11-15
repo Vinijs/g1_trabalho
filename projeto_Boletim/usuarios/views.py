@@ -41,6 +41,29 @@ def logoff(request):
 @login_required()
 def dashboard(request):
     return render(request, 'dashboard.html')
+  
+def inicio(request):
+    return render(request, 'inicio.html')
+  
+def notas(request):
+    return render(request, 'notas.html')
+  
+  
+def provas(request):
+    return render(request, 'provas.html')
+  
+def horarios(request):
+    return render(request, 'horarios.html')
+  
+def biblioteca(request):
+    return render(request, 'biblioteca.html')
+  
+def cursos(request):
+    return render(request, 'cursos.html')
+  
+
+def avisos(request):
+    return render(request,'avisos.html')
 
 def cadastro(request):
     form = cadastroForm()
