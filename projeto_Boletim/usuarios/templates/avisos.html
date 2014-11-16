@@ -1,3 +1,25 @@
-<h1> Seja bem vindo a tela de avisos</h1>
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8">
+     <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+    
+       <title>Projeto-Boletim</title>
+      
+  </head>   
+    <body>  
+         <div align="right"><a href="/logoff/">Sair</a></div>
+        <div align="right">Email do usuario logado: {{ user.email }}</div>
+        <div align="center"><h1><p class="text-info">Mural de Avisos</p></h1></div>
 
 <a href="/dashboard/">Voltar para o menu principal</a>
+    <hr>
+        
+    <hr>
+    <!-- RODAPE -->
+    <footer>
+      <div align="center">&copy; Portal do aluno | 2014</div>
+    </footer>
+    <!-- FIM RODAPE -->
+    </body>
+</html>
