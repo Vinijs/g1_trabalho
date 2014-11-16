@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-11 02:58+0000\n"
+"POT-Creation-Date: 2014-11-16 16:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,13 +18,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: usuarios/views.py:10
-msgid "Ola, seja bem vindo ao Boletim.com.br"
-msgstr "Hello, welcome to Boletim.com.br"
+msgid "Ola, seja bem vindo ao Boletim.com.br!"
+msgstr "Hello, welcome to Boletim.com.br!"
 
-#: usuarios/templates/index.html:39
-msgid "Acesse a suas notas de maneira rápida e prática. "
+#: usuarios/templates/index.html:50
+msgid "Acesse a suas notas de maneira rápida e prática."
 msgstr "Access your notes quickly and practically."
 
-#: usuarios/templates/index.html:41
-msgid "Boletim do Aluno"
-msgstr "Student Newsletter"
+#: usuarios/templates/index.html:52
+msgid " Boletim do Aluno!"
+msgstr "Student Newsletter!"
