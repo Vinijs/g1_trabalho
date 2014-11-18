@@ -12,6 +12,7 @@
         <div align="right"><a href="/logoff/">Sair</a></div>
         <div align="right">Email do usuario logado: {{ user.email }}</div>
         <div align="center"><h1><p class="text-info">Portal do aluno</p></h1></div>
+       
 
 <br />
 <hr> 
@@ -26,7 +27,32 @@
             <li><a href="/cursos/">Cursos online</a></li>
             <li><a href="/avisos/">Avisos</a></li>
     </ul>
-   
+        
+        <!-- Redes sociais -->
+        <div align="left"><h3><p class="text-info">Redes sociais</p></h3></div>
+        
+        <ul class="thumbnails">
+        <li class="span1">
+                <a href="https://www.youtube.com/" class="thumbnail">
+                <img class="img-responsive" src="{{ STATIC_URL }}bootstrap/img/yotube.jpg">
+                </a>
+        </li>
+        <li class="span1">
+               <a href="https://www.facebook.com/" class="thumbnail">
+                <img class="img-responsive" src="{{ STATIC_URL }}bootstrap/img/face.png">
+                </a>
+        </li>    
+        <li class="span1">
+           <a href="http://instagram.com/#" class="thumbnail">
+                <img class="img-responsive" src="{{ STATIC_URL }}bootstrap/img/instagram.jpg">
+                </a>
+        </li>
+        <li class="span1">
+           <a href="https://twitter.com/?lang=pt" class="thumbnail">
+                <img class="img-responsive" src="{{ STATIC_URL }}bootstrap/img/twitter.jpg">
+                </a>
+        </li>
+        </ul>
 <hr>      
 <br /> 
     <!-- RODAPE -->

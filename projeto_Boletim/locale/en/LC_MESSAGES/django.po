@@ -18,13 +18,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: usuarios/views.py:10
-msgid "Ola, seja bem vindo ao Boletim.com.br!"
-msgstr "Hello, welcome to Boletim.com.br!"
+msgid "Ola, seja bem vindo ao Portal do aluno!"
+msgstr "Hello, welcome to the Student Portal!"
 
 #: usuarios/templates/index.html:50
 msgid "Acesse a suas notas de maneira rápida e prática."
 msgstr "Access your notes quickly and practically."
 
 #: usuarios/templates/index.html:52
-msgid " Boletim do Aluno!"
-msgstr "Student Newsletter!"
+msgid " Portal do Aluno!"
+msgstr "Student Portal!"
