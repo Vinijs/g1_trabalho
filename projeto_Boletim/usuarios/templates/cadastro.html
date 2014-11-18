@@ -6,6 +6,7 @@
 <form action="/cadastro_validar/" method="POST">
     {% csrf_token %}
     {{ form.as_p }}<br />
+   
 
     <input  class="btn btn-info" type="submit" value="Cadastrar"/>
     <a href="/login/">Clique aqui para fazer o login</a>
