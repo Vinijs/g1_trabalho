@@ -1,1 +1,1 @@
-web: gunicorn wiki.wsgi
+web: gunicorn projeto_Boletim.wsgi
