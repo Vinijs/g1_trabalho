@@ -48,7 +48,6 @@ def inicio(request):
 def notas(request):
     return render(request, 'notas.html')
   
-  
 def provas(request):
     return render(request, 'provas.html')
   

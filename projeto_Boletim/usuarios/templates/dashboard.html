@@ -3,17 +3,13 @@
 <html lang="pt_BR">
   <head>
     <meta charset="utf-8">
-     <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
-    
-       <title>Portal do aluno</title>
-      
+     <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css" rel="stylesheet">  
+       <title>Portal do aluno</title>    
   </head>   
     <body>  
         <div align="right"><a href="/logoff/">Sair</a></div>
         <div align="right">Email do usuario logado: {{ user.email }}</div>
         <div align="center"><h1><p class="text-info">Portal do aluno</p></h1></div>
-       
-
 <br />
 <hr> 
     <ul class="nav nav-tabs">
@@ -27,6 +23,60 @@
             <li><a href="/cursos/">Cursos online</a></li>
             <li><a href="/avisos/">Avisos</a></li>
     </ul>
+    <!-- Painel de informação -->  
+    <ul class="thumbnails">
+    <li class="span4">
+        <a href="#" class="thumbnail inner-border">
+            <span></span>
+            <img class="img-responsive" src="{{ STATIC_URL }}bootstrap/img/alunonota10.jpg">
+        </a>
+    </li>
+    <li class="span4">
+        <a href="http://sisfiesportal.mec.gov.br/" class="thumbnail inner-border">
+            <span></span>
+            <img class="img-responsive" src="{{ STATIC_URL }}bootstrap/img/fies.jpg">
+        </a>
+    </li>
+    <li class="span4">
+        <a href="http://enem.inep.gov.br/" class="thumbnail inner-border">
+            <span></span>
+            <img class="img-responsive" src="{{ STATIC_URL }}bootstrap/img/enem.jpg">
+        </a>
+    </li>
+    <li class="span4">
+        <a href="http://siteprouni.mec.gov.br/" class="thumbnail inner-border">
+            <span></span>
+            <img class="img-responsive" src="{{ STATIC_URL }}bootstrap/img/prouni.jpg">
+        </a>
+    </li>    
+    </ul>
+        
+   <ul class="thumbnails">
+    <li class="span4">
+        <a href="http://www.ciee.org.br/portal/index.asp" class="thumbnail inner-border">
+            <span></span>
+            <img class="img-responsive" src="{{ STATIC_URL }}bootstrap/img/ciee.jpg">
+        </a>
+    </li>
+    <li class="span4">
+        <a href="http://escoladafamilia.fde.sp.gov.br/v2/subpages/bolsa_universidade.html" class="thumbnail inner-border">
+            <span></span>
+            <img class="img-responsive" src="{{ STATIC_URL }}bootstrap/img/bolsa.jpg">
+        </a>
+    </li>
+    <li class="span4">
+        <a href="http://www.mec.gov.br/" class="thumbnail inner-border">
+            <span></span>
+            <img class="img-responsive" src="{{ STATIC_URL }}bootstrap/img/mec.jpg">
+        </a>
+    </li>
+    <li class="span4">
+        <a href="http://www.cienciasemfronteiras.gov.br/web/csf" class="thumbnail inner-border">
+            <span></span>
+             <img class="img-responsive" src="{{ STATIC_URL }}bootstrap/img/ciencia.jpg">
+        </a>
+    </li>   
+    </ul>      
         
         <!-- Redes sociais -->
         <div align="left"><h3><p class="text-info">Redes sociais</p></h3></div>
